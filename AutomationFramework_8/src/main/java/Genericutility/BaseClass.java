@@ -1,7 +1,6 @@
 package Genericutility;
 
 import java.io.IOException;
-//org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,6 +22,7 @@ import ObjectRepository.Loginpage;
 import ObjectRepository.Welcomepage;
 
 public class BaseClass {
+	// added some messages
 public WebDriver driver;
 public static WebDriver sdriver;
 public static  ExtentTest test;
